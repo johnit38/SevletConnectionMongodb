@@ -1,0 +1,30 @@
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,form,p,textarea{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif;
+}
+ol,ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+img{
+    display: block;
+    border: none;
+}
+
+.clearFloat{
+    zoom: 1;
+}
+.clearFloat:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0px;
+}
+

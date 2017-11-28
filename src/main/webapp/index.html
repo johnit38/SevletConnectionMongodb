@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>17移动应用网络平时分系统</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+
+    <div class="public-header">
+        <div class="public-container clearFloat">
+            <div class="header-logo">
+                <h3>移动应用开发</h3>
+            </div>
+            <ul class="header-nav">
+                <li class="item"><a onclick="ajax()">注册</a></li>
+                <li class="item"><a id="example">登陆</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="user">
+
+    </div>
+
+    <div class="public-container student-info">
+        <h1 id="resText"></h1>
+    </div>
+
+    <div class="public-container student-list">
+
+    </div>
+
+    <div class="footer">
+    </div>
+
+    <div id="LoginBox">
+        <div class="row1">
+            登录账号
+            <a title="关闭窗口" class="close_btn" id="closeBtn">×</a>
+        </div>
+        <div class="row">
+            用户名:
+            <span class="inputBox">
+                <input type="text" class="txtName" id="account"/>
+            </span>
+        </div>
+        <div class="row">
+            密&nbsp;&nbsp;&nbsp;&nbsp;码:
+            <span class="inputBox">
+                <input type="text" class="txtPwd" id="password"/>
+            </span>
+        </div>
+        <a id="loginbtn" class="loginbtn" onclick="ajax()">登录</a>
+    </div>
+
+    <script src="js/common.js"></script>
+</body>
+</html>
