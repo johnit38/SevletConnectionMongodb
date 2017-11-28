@@ -21,6 +21,10 @@ public class LoginConnection extends HttpServlet {
     }
 
 
+    private void get(){
+
+    }
+
     /*
         444 r--r--r--
         666 rw-rw-rw-
